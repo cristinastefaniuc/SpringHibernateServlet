@@ -10,7 +10,7 @@
 
     <context-param>
         <param-name>contextConfigLocation</param-name>
-        <param-value>yourPackage</param-value>
+        <param-value>com.bookDB</param-value>
     </context-param>
 
     <listener>

@@ -1,6 +1,6 @@
-package DAO;
+package com.bookDB.DAO;
 
-import book.entity.Languages;
+import com.bookDB.book.Languages;
 import java.util.List;
 import javax.transaction.Transactional;
 import org.hibernate.Session;

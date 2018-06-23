@@ -1,6 +1,6 @@
-package servlets;
+package com.bookDB.servlets;
 
-import DAO.AuthorDAO;
+import com.bookDB.DAO.AuthorDAO;
 import java.io.IOException;
 import javax.servlet.ServletConfig;
 import javax.servlet.ServletException;
@@ -11,7 +11,7 @@ import javax.servlet.http.HttpServletResponse;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 
-@WebServlet("author")
+@WebServlet("/author")
 public class AuthorServlet extends HttpServlet {
 
     private AuthorDAO authorDAO;

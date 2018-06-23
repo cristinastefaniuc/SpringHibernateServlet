@@ -1,4 +1,4 @@
-package configuration;
+package com.bookDB.configuration;
 
 import java.util.Properties;
 import javax.sql.DataSource;

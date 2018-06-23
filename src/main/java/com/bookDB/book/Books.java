@@ -1,4 +1,4 @@
-package book.entity;
+package com.bookDB.book;
 
 import java.io.Serializable;
 import java.util.HashSet;

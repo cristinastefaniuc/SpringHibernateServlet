@@ -1,4 +1,4 @@
-package book.entity;
+package com.bookDB.book;
 
 public enum Genres {
     war_novel,
